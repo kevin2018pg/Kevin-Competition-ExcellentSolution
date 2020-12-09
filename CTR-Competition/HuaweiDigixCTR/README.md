@@ -1,21 +1,9 @@
-# digix2020_ctr_rank1
-华为digix算法大赛2020机器学习赛道-ctr预估初赛/决赛rank1
-
-队名：忑廊埔大战拗芭码（决赛更名为风犹惊入萧独夜）
-
-分数：初赛A榜0.820305/B榜0.822074，决赛A榜0.822590/B榜0.814384
-
-排名：初赛A榜rank1/B榜rank1，决赛A榜rank2/B榜rank1
-
-项目的blog分享[链接](https://blog.csdn.net/weixin_40174982/article/details/109802534)
-
-南京之旅圆满结束，首冠到手，感谢队友！
-
-补：初赛搜索相关性开源[链接](https://github.com/digix2020/digix2020_search_rank1)
+# digix2020_ctr
+华为digix算法大赛2020机器学习赛道-ctr预估
 
 ## 项目环境
 
-Python 3.8
+Python 3.7
 
 lightgbm
 
@@ -37,12 +25,12 @@ networkx
 
 运行reduce/reduce.py进行数据压缩
 
-运行full.py进行全特征模型的训练和推理，决赛B榜分数813
+运行full.py进行全特征模型的训练和推理
 
-运行win.py进行滑窗模型的训练和推理，决赛B榜分数811
+运行win.py进行滑窗模型的训练和推理
 
-运行nounique.py进行部分特征模型的训练和推理，决赛B榜分数811
+运行nounique.py进行部分特征模型的训练和推理
 
-运行result/fusion.py得到三个模型结果的融合，决赛B榜分数814
+运行result/fusion.py得到三个模型结果的融合
 
 result文件夹中可得到最终结果文件submission_f.csv
