@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021/4/5 20:59
-# @Author  : chendong14776
+# @Author  : kevin
 # @File    : xlnet_base.py
 # @Version : python 3.6
-# @Desc    :
+# @Desc    : xlnet
 
 from transformers import XLNetPreTrainedModel, XLNetModel
 from transformers.modeling_utils import SequenceSummary
