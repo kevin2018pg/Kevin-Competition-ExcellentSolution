@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021/4/6 23:21
-# @Author  : chendong14776
+# @Author  : kevin
 # @File    : bert_attention.py
 # @Version : python 3.6
 # @Desc    : bert + attention
