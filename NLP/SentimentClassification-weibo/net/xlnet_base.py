@@ -15,7 +15,7 @@ class XLNetForSequenceClassification(XLNetPreTrainedModel):
     def __init__(self, config, args):
         super().__init__(config)
         self.num_labels = config.num_labels
-
+        self.args = args
         self.transformer = XLNetModel(config)
         self.sequence_summary = SequenceSummary(config)
         self.logits_proj = nn.Linear(config.d_model, config.num_labels)
